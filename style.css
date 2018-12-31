@@ -277,7 +277,5 @@ footer svg.svg-inline--fa{
 /*-- Media Queries --*/
 
 @media (max-width: 767px){
-    #features{
-        display: table;
-    }
+
 }
