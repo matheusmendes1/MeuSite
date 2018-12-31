@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+body{
+    overflow-x: hidden;
+    font-family: 'Source Sans Pro', sans-serif !important;
+    background-image: url(img/bg.png);
+    height: 100%;
+}
+
+.offset:before{
+    display:block;
+    content:"";
+    height: 4rem;
+    margin-top: -4rem;
+}
+
+/*-- Navigation --*/
+
+.navbar{
+    font-weight: 500;
+    font-size: 1.2rem;
+    background: rgba(0,0,0,0.6) !important;
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link{
+    color:white;
+    
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover{
+    color:#A7BB39;
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-item .btn{
+    font-weight: 500;
+    font-size: 1.2rem;
+    background-color: #A7BB39;
+    border-color: #A7BB39;
+    color: white;
+    margin: 0px 0px 0px 30px;
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-item .btn:hover{
+    font-weight: 500;
+    font-size: 1.2rem;
+    background-color: #84932d;
+    border-color: #84932d;
+    color: white;
+}
+
+.navbar-brand img{
+    width: 13.75rem;
+}
+
+/*-- Landing Page --*/
+
+.home-inner{
+    background-image: url(img/headerHome.jpg);
+}
+
+.caption{
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 38%;
+    z-index: 1;
+    color: white;
+}
+
+.caption h1{
+    font-size: 4rem;
+    font-weight: 700;
+    padding-bottom: 1rem;
+  }
+  
+  .caption h3{
+    font-size: 1.5rem;
+    padding-bottom: 1.6rem;
+  }
+  
+  .btn-secondary{
+    border-width: medium;
+    border-radius: 0.4rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 0.6rem 4rem;
+    margin: 1rem;
+    color: white;
+    background-color: #A7BB39;
+    border-color: #A7BB39;
+  }
+  
+  .btn-secondary:hover{
+    background-color: #84932d;
+    border-color: #84932d;
+    color: white;
+  }
+
+/*-- Features Section --*/
+#features{
+    background-color: #073247;
+}
+
+.narrow{
+    margin: auto;
+    padding-bottom: 2rem;
+  }
+
+.feature h3{
+    font-weight: 400 !important;
+    letter-spacing: 0;
+    color:white !important;
+    font-size: 1.9rem !important;
+}
+
+.feature p{
+    font-size: 1.3rem;
+    font-weight: 500;
+    letter-spacing: 0.05rem;
+    color:white;
+}
+
+/*-- Solutions Section --*/
+
+.justify-content-center{
+    width: 100%;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.solutions{
+	text-align: center;
+	color: #073247;
+    padding: 10px;
+    width: 100%;
+}
+
+.solutions h1{
+	font-weight: bold;	
+	padding: 20px;
+} 
+
+.solution div:hover{
+	background-color: #91b545;
+	border-color: #91b545;
+	color: #fff;
+}
+
+.solution div:hover img {
+	position: relative;
+	top: 10px;
+}
+
+.solution div:hover .btn {
+	background-color: #fff;
+	border-color: #fff;
+	color:  #91b545;
+}
+
+.solution div {
+	font-size: 13pt;
+	border: 2px solid #DCDCDC;
+	border-radius: 10px;
+	padding: 5px;
+	text-align: center;
+	background-color: #fff;	
+	height: 100%;
+	
+}
+
+.solution h1{
+	font-size: 18pt;
+	font-weight: bold;
+}
+
+.solution img{
+	max-width: 330px;
+}
+
+h3.heading{
+    font-size: 2.7rem;
+    letter-spacing: 0;
+    font-weight: 900;
+    color: #073145;
+    padding: 2rem 0rem;
+  }
+
+
+/*-- Partners Section --*/
+
+.jumbotron{
+    height: 100%;
+    background: linear-gradient(180deg, white 50%, #073247 50%);
+}
+
+.partners img{
+    width: 35%;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+blockquote .svg-inline--fa{
+    color: #A7BB39;
+    margin: 1rem;
+}
+
+blockquote{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color:#073145;
+}
+
+.partners-hr{
+    border-top: 0.05rem solid #073247;
+}
+
+.box-partner{
+    border: 1px solid lightgray;
+    border-radius: 0.5rem;
+    background-color: white;
+    width:100%;
+}
+
+/*-- Footer Section --*/
+
+#footer{
+    background-color: #042332;
+}
+
+footer img{
+    width: 15rem;
+}
+
+footer p strong{
+    color:white;
+    font-size: 1.5rem;
+}
+
+table{
+    color: white;
+}
+
+.partners-hr{
+    border-top: 0.1rem solid white;
+}
+
+footer .footer-p{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+footer a{
+    color: white;
+    font-size: 1.1rem;
+}
+
+footer a:hover{
+    color: #A7BB39;
+} 
+
+footer svg.svg-inline--fa{
+    font-size: 1.6rem;
+    margin: 1.2rem 0.5rem 0 0;
+  }
+  
+  footer svg.svg-inline--fa:hover{
+    color: #A7BB39 !important;
+  }
+
+/*-- Media Queries --*/
+
+@media (max-width: 767px){
+    #features{
+        display: table;
+    }
+}
