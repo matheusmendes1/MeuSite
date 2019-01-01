@@ -10,15 +10,15 @@ body{
 .offset:before{
     display:block;
     content:"";
-    height: 4rem;
-    margin-top: -4rem;
+    height: 1rem;
+    margin-top: -1rem;
 }
 
 /*-- Navigation --*/
 
 .navbar{
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     background: rgba(0,0,0,0.6) !important;
 }
 
@@ -33,7 +33,7 @@ body{
 
 .navbar .navbar-collapse .navbar-nav .nav-item .btn{
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     background-color: #A7BB39;
     border-color: #A7BB39;
     color: white;
@@ -42,7 +42,7 @@ body{
 
 .navbar .navbar-collapse .navbar-nav .nav-item .btn:hover{
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     background-color: #84932d;
     border-color: #84932d;
     color: white;
@@ -50,6 +50,10 @@ body{
 
 .navbar-brand img{
     width: 13.75rem;
+}
+
+.navbar-image{
+    margin-left: 7rem;
 }
 
 /*-- Landing Page --*/
@@ -132,52 +136,51 @@ body{
 }
 
 .solutions{
-	text-align: center;
-	color: #073247;
+    text-align: center;
+    color: #073247;
     padding: 10px;
     width: 100%;
 }
 
 .solutions h1{
-	font-weight: bold;	
-	padding: 20px;
+    font-weight: bold;  
+    padding: 20px;
 } 
 
 .solution div:hover{
-	background-color: #91b545;
-	border-color: #91b545;
-	color: #fff;
+    background-color: #91b545;
+    border-color: #91b545;
+    color: #fff;
 }
 
 .solution div:hover img {
-	position: relative;
-	top: 10px;
+    position: relative;
+    top: 10px;
 }
 
 .solution div:hover .btn {
-	background-color: #fff;
-	border-color: #fff;
-	color:  #91b545;
+    background-color: #fff;
+    border-color: #fff;
+    color:  #91b545;
 }
 
 .solution div {
-	font-size: 13pt;
-	border: 2px solid #DCDCDC;
-	border-radius: 10px;
-	padding: 5px;
-	text-align: center;
-	background-color: #fff;	
-	height: 100%;
-	
+    font-size: 13pt;
+    border: 2px solid #DCDCDC;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    background-color: #fff; 
+    height: 100%;
 }
 
 .solution h1{
-	font-size: 18pt;
-	font-weight: bold;
+    font-size: 18pt;
+    font-weight: bold;
 }
 
 .solution img{
-	max-width: 330px;
+    max-width: 330px;
 }
 
 h3.heading{
@@ -191,13 +194,14 @@ h3.heading{
 
 /*-- Partners Section --*/
 
+
 .jumbotron{
     height: 100%;
     background: linear-gradient(180deg, white 50%, #073247 50%);
 }
 
-.partners img{
-    width: 35%;
+.partner img{
+    width: 20%;
     border-radius: 50%;
     display: block;
     margin-left: auto;
@@ -215,21 +219,30 @@ blockquote{
     color:#073145;
 }
 
-.partners-hr{
-    border-top: 0.05rem solid #073247;
+.partner div {
+    font-size: 1.5rem;
+    border: 2px solid #DCDCDC;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    background-color: #fff; 
+    height: 100%;
 }
 
-.box-partner{
-    border: 1px solid lightgray;
-    border-radius: 0.5rem;
-    background-color: white;
-    width:100%;
+.partner h1{
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+.partner img{
+    max-width: 330px;
 }
 
 /*-- Footer Section --*/
 
 #footer{
     background-color: #042332;
+    margin-top: -3rem;
 }
 
 footer img{
@@ -245,8 +258,8 @@ table{
     color: white;
 }
 
-.partners-hr{
-    border-top: 0.1rem solid white;
+#partners{
+    margin-top: -7rem;
 }
 
 footer .footer-p{
@@ -277,5 +290,110 @@ footer svg.svg-inline--fa{
 /*-- Media Queries --*/
 
 @media (max-width: 767px){
+/*-- Navigation Section --*/
 
+    .navbar-brand img{
+        width: 10rem;
+    }
+
+    .navbar-image{
+        margin-left: 0px;
+    }
+
+    .navbar .navbar-collapse .navbar-nav .nav-item .btn{
+        font-weight: 500;
+        font-size: 1.2rem;
+        background-color: #A7BB39;
+        border-color: #A7BB39;
+        color: white;
+        margin: 0px 0px 0px 0px;
+    }
+
+/*-- Landing Page Section --*/
+
+    .caption h1{
+        font-size: 1.5rem;
+        font-weight: 800;
+        padding-bottom: 1rem;
+      }
+      
+      .caption h3{
+        font-size: 1.3rem;
+        padding-bottom: 1rem;
+      }
+      
+      .btn-secondary{
+        border-width: medium;
+        border-radius: 0.4rem;
+        font-size: 0.7rem;
+        font-weight: 600;
+        padding: 0.3rem 2.5rem;
+        margin: 1rem;
+        color: white;
+        background-color: #A7BB39;
+        border-color: #A7BB39;
+      }
+
+/*-- Solutions Section --*/
+
+    .solution img{
+        max-width: 230px;
+    }
+
+    h3.heading{
+        font-size: 2rem;
+        letter-spacing: 0;
+        font-weight: 900;
+        color: #073145;
+    }
+
+/*-- Partners Section --*/
+
+    .jumbotron{
+       height: 75%;
+       background: linear-gradient(180deg, white 50%, #073247 50%);
+    }
+
+
+    .partners img{
+        width: 30%;
+        border-radius: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    blockquote{
+        font-size: 0.9rem;
+        font-weight: 500;
+        color:#073145;  
+    }
+
+/*-- Footer Section --*/
+    footer img{
+        width: 10rem;
+    }
+
+    footer p strong{
+        color:white;
+        font-size: 1.2rem;
+    }
+
+    footer .footer-p{
+        color: white;
+        font-size: 1rem;
+        font-weight: 600;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+
+    footer svg.svg-inline--fa{
+        font-size: 1.6rem;
+        margin: 1.2rem 0.5rem 0 0;
+    }
+
+    footer .row .text-center svg.svg-inline--fa{
+        font-size: 3rem;
+    }
+  
 }
