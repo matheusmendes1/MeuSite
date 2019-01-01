@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ops Solutions</title>
+  <link rel="icon" href="img/logo-topo.png">
+  <link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/fixed.css">
+
+  <script src="js/main.js"></script>
+</head>
+
+<body data-target="#navbarResponsive">
+
+<div id="home"> <!-- Start Home Section -->
+   <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top"> <!-- Start Navigation -->
+         <a class="navbar-brand navbar-image" href="#">
+          <img src="img/logo-topo.png">
+         </a>            
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+               <li class="nav-item"><a class="nav-link" href="#">O que fazemos</a></li>
+               <li class="nav-item"><a class="nav-link" href="#">Nossos projetos</a></li>
+               <li class="nav-item"><a class="nav-link" href="#">Quem somos</a></li>
+               <li class="nav-item"><a class="nav-link" href="#">Fale conosco</a></li>
+               <li class="nav-item"><a class="nav-link btn btn-outline-light btn-lg" href="#">Faça seu orçamento grátis</a></li>
+            </ul>
+         </div>
+   </nav> <!-- End Navigation -->
+
+  <div class="landing"> <!-- Start Landing Page Section -->
+    <div class="home-wrap">
+        <div class="home-inner">
+
+        </div>
+    </div>
+
+    <div class="caption text-center titulo-orcamento">
+        <h1>Faça seu orçamento grátis!</h1>
+        <h3>Peça aqui o seu orçamento sem compromisso. Basta preencher o <br> formulário e te enviaremos uma proposta personalizada!</h3>
+    </div>
+  </div> <!-- End Landing Page Section -->
+
+</div> <!-- End Home Section -->
+
+<div id="orcamento"> <!-- Start Formulário Section -->
+   <div class="container"> <!-- Start Container -->
+      <form> <!-- Start Form -->
+         <div class="row">
+            <div class="col-lg-5">
+               <input type="text" class="form-control" placeholder="Nome*">
+            </div>
+
+            <div class="col-lg-5">
+               <input type="email" class="form-control" placeholder="Email*">
+            </div>
+         </div>
+
+         <div class="row">
+            <div class="col-lg-5">
+               <input type="text" class="form-control" placeholder="Telefone ex:(DDD)99999-9999">
+            </div>
+
+            <div class="col-lg-5">
+               <input type="text" class="form-control" placeholder="Empresa*">
+            </div>
+         </div>
+
+         <div class="row">
+            <div class="col-lg-11">
+               <input type="text" class="form-control" placeholder="Estado/CEP*">
+            </div>
+         </div>
+
+         <div class="row">
+            <div class="col-lg-11">
+               <input type="text" class="form-control" placeholder="Concessionária de energia ( ex: CEMIG,LIGHT, etc.)*">
+            </div>
+         </div>
+
+         <div class="row">
+            <div class="col-lg-1">
+               <label for="">Interesse:*</label>
+            </div>
+
+            <div class="col-lg-3">
+               <div class="checkbox">
+                  <input type="checkbox" id="option1">
+                  <label for="option1">Sistema Fotovoltaico</label>
+               </div>
+
+               <div class="checkbox">
+                  <input type="checkbox" id="option2">
+                  <label for="option2">Aquecimento Solar</label>
+               </div>
+
+               <div class="checkbox">
+                  <input type="checkbox" id="option3">
+                  <label for="option3">Iluminação de LED</label>
+               </div>
+
+               <div class="checkbox">
+                  <input type="checkbox" id="option4">
+                  <label for="option4">Outros</label>
+               </div>                            
+           </div>
+
+           <div class="col-lg-1">
+               <label for="">Como nos conheceu:*</label>
+            </div>
+
+            <div class="col-lg-3">
+               <div class="checkbox">
+                  <input type="checkbox" id="option1">
+                  <label for="option1">Site</label>
+               </div>
+
+               <div class="checkbox">
+                  <input type="checkbox" id="option2">
+                  <label for="option2">Facebook</label>
+               </div>
+
+               <div class="checkbox">
+                  <input type="checkbox" id="option3">
+                  <label for="option3">Instagram</label>
+               </div>
+
+               <div class="checkbox">
+                  <input type="checkbox" id="option4">
+                  <label for="option4">Indicação</label>
+               </div>
+
+               <div class="checkbox">
+                  <input type="text" class="form-control" placeholder="Outros">
+               </div>
+            </div>
+         </div>
+
+         <div class="row">
+            <div class="col-lg-11">
+               <textarea class="form-control"  placeholder="Mensagem" rows="4" id="mensagem"></textarea>
+            </div>
+         </div>
+
+         <div class="row">
+            <div class="col-lg-11">
+               <button type="button" class="btn btn-outline-light btn-lg btn-orcamento">Enviar</button>
+            </div>
+         </div>
+
+         <br/>
+         
+         <div class="email">
+               <div class="container">
+                  <center><h5>Ou apenas envie um email para:</h5></center><br/>
+         
+                  <center><a href="mailto:someone@example.com?Subject=Hello%20again" target="_top">contato@opssolution.com.br</a></center>        
+                  <hr class="col-lg-2 orcamento-hr">
+               </div>
+         </div>
+      </form> <!-- End Form -->
+
+
+   </div> <!-- End Container -->
+</div> <!-- End Formulário Section -->
+
+
+<div id="footer" class="offset"> <!-- Start Footer Section -->
+   <footer class="container">
+      <div class="row">
+         <div class="col-md-4 text-center">
+            <img src="img/logo-topo.png">
+            <p><strong>Optimização, projetos e soluções</strong></p>
+         </div>
+         <div class="col-md-4">
+            <p class="footer-p">Quer falar com a gente?</p>
+            <table class="table">
+               <tbody>
+                  <tr>
+                     <th rowspan="1" scope="col"><i class="fas fa-phone-volume fa-2x"></i></th>
+                     <th rowspan="1" scope="col">+55(33) 99944-0740<br>+55(31) 99822-7046</th>
+                  </tr>
+                  <tr>
+                     <th rowspan="1" scope="col"><i class="fas fa-map-marker-alt fa-2x"></i></i></th>
+                     <th rowspan="1" scope="col">Rua Célio de Castro, 432, Sala 201<br>Floresta | Belo Horizonte – MG</th>
+                  </tr>
+                  <tr>
+                     <th rowspan="1" scope="col"><i class="fas fa-map-marker-alt fa-2x"></i></i></th>
+                     <th rowspan="1" scope="col">Avenida Minas Novas, 40, Sala 2A<br>Cruzinha | Minas Novas – MG</th>
+                  </tr>
+               </tbody>
+            </table>
+            <hr class="partners-hr">
+            <div class="text-center">
+               <a href="#" target="_blank"><i class="fab fa-facebook-square"></i></a>
+               <a href="#" target="_blank"><i class="fab fa-twitter-square"></i></a>
+               <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>        
+            </div>
+         </div>
+         <div class="col-md-4 text-center">
+            <p class="footer-p">Home</p>
+            <p><a href="#">O que fazemos</a></p>
+            <p><a href="#">Nossos Projetos</a></p>
+            <p><a href="#">Quem Somos</a></p>
+            <p><a href="#">Fale Conosco</a></p>
+         </div>
+      </div>
+   </footer>
+</div> <!-- End Footer Section -->    
+
+<!--- Script Source Files -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+<script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+<script src="js/main.js"></script>
+<!--- End of Script Source Files -->
+
+</body>
+</html>
