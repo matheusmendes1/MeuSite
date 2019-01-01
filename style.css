@@ -37,7 +37,7 @@ body{
     background-color: #A7BB39;
     border-color: #A7BB39;
     color: white;
-    margin: 0px 0px 0px 30px;
+    margin: 0px 0px 0px 10px;
 }
 
 .navbar .navbar-collapse .navbar-nav .nav-item .btn:hover{
@@ -104,6 +104,7 @@ body{
 /*-- Features Section --*/
 #features{
     background-color: #073247;
+    margin-top: 1rem;
 }
 
 .narrow{
@@ -372,6 +373,62 @@ footer svg.svg-inline--fa{
     color: white;
 }
 
+/* Orçamento Section --*/
+#orcamento{
+    padding-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+#orcamento .container form .row div{
+    margin: 0 auto !important;
+    width: 100% !important;
+}
+
+.btn-orcamento{
+    width: 100%;
+    border-width: medium;
+    border-radius: 0.2rem;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+    padding: 0.7rem 0rem;
+    color: white;
+    background-color: #A7BB39;
+    border-color: #A7BB39;
+}
+
+.btn-orcamento:hover{
+    background-color: #84932d;
+    border-color: #84932d;
+    color: white;
+}
+
+.form-control{
+    background-color:#F0F1F2;
+    border: none;
+}
+
+::placeholder{
+    color: #0766AE;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.email h5{
+    color:#073247;
+    font-weight: 500;
+}
+
+.email a{
+    color:#073247;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.orcamento-hr{
+    border-top: 0.1rem solid #073247;
+}
 
 @media (max-width: 767px){
 /*-- Navigation Section --*/
@@ -510,5 +567,27 @@ footer svg.svg-inline--fa{
 
     .quemsomos .text-center .heading{
         margin-bottom: 2rem;
+    }
+
+/*-- Orçamento Section --*/
+    .titulo-orcamento h1{
+        font-size: 1.5rem;
+    }
+
+    .titulo-orcamento h3{
+        font-size: 1rem;
+    }
+
+    .email .container h5{
+        font-size: 1.1rem;
+    }
+
+    .email .container a{
+        font-size: 1rem;
+    }
+
+    .email .container .orcamento-hr{
+        border-top: 0.1rem solid #073247;
+        width: 30%;
     }
 }
