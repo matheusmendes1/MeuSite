@@ -194,7 +194,6 @@ h3.heading{
 
 /*-- Partners Section --*/
 
-
 .jumbotron{
     height: 100%;
     background: linear-gradient(180deg, white 50%, #073247 50%);
@@ -288,6 +287,91 @@ footer svg.svg-inline--fa{
   }
 
 /*-- Media Queries --*/
+
+/*-- Quem Somos Section */
+
+.quemsomos .btn{
+    border-radius: 25px;
+    color: #042332;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 10px 50px;
+	margin: 30px;
+	border: 2px solid #DBDBDB;
+
+}
+
+.quemsomos .active {
+	background-color: #fff;
+	border-color: #042332 !important;
+}
+
+.quemsomos .sobre{
+    text-align: justify;
+	font-size: 1.3em;
+	margin: 20px;
+    line-height: 2em;
+}
+
+.quemsomos .equipe img{
+	border-radius: 50%;
+	width: 220px;
+	margin: 40px;
+}
+
+.quemsomos .equipe{
+	text-align: justify;
+	font-size: 1.1em;
+	margin: 20px;
+    line-height: 2em;
+    font-weight: 400;
+    padding-bottom: 3rem;
+    color: #073268;
+    letter-spacing: 0;
+}
+
+.quemsomos .equipe div{
+	padding: 0px 20px;
+}
+
+.sobre .btn-secondary{
+    border-width: medium;
+    border-radius: 0.2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 0.8rem 4rem;
+    color: white;
+    background-color: #A7BB39;
+    border-color: #A7BB39;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+.sobre .btn-secondary:hover{
+    background-color: #84932d;
+    border-color: #84932d;
+    color: white;
+}
+
+.equipe .btn-secondary{
+    border-width: medium;
+    border-radius: 0.2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 0.8rem 4rem;
+    color: white;
+    background-color: #A7BB39;
+    border-color: #A7BB39;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+.equipe .btn-secondary:hover{
+    background-color: #84932d;
+    border-color: #84932d;
+    color: white;
+}
+
 
 @media (max-width: 767px){
 /*-- Navigation Section --*/
@@ -396,4 +480,35 @@ footer svg.svg-inline--fa{
         font-size: 3rem;
     }
   
+/*-- Quem Somos Section --*/
+
+    .sobre .btn-secondary{
+        border-width: medium;
+        border-radius: 0.2rem;
+        font-size: 0.9rem;
+        font-weight: 600;
+        padding: 0.3rem 2rem;
+        color: white;
+        background-color: #A7BB39;
+        border-color: #A7BB39;
+        margin: auto;
+        margin-top: 1.5rem;
+    }
+
+    .equipe .btn-secondary{
+        border-width: medium;
+        border-radius: 0.2rem;
+        font-size: 0.9rem;
+        font-weight: 600;
+        padding: 0.3rem 2rem;
+        color: white;
+        background-color: #A7BB39;
+        border-color: #A7BB39;
+        margin: auto;
+        margin-top: 1.5rem;
+    }
+
+    .quemsomos .text-center .heading{
+        margin-bottom: 2rem;
+    }
 }
