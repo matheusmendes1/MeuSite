@@ -88,7 +88,7 @@ body{
     font-size: 1.2rem;
     font-weight: 600;
     letter-spacing: 1px;
-    padding: 0.6rem 4rem;
+    padding: 0.4rem 1.1rem;
     margin: 1rem;
     color: white;
     background-color: #A7BB39;
@@ -181,7 +181,7 @@ body{
 }
 
 .solution img{
-    max-width: 330px;
+    max-width: 230px;
 }
 
 h3.heading{
@@ -453,7 +453,7 @@ footer svg.svg-inline--fa{
 /*-- Nossos Projetos Section --*/
 
 #outerCarousel{
-    background-image: url(img/bg.png)/
+    background-image: url(img/bg.png);
 }
 
 .container-carousel{
@@ -484,6 +484,34 @@ footer svg.svg-inline--fa{
 
 
 /*-- Media Queries --*/
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    footer table th{
+        font-size: 0.8rem;
+    }
+
+    .solution img{
+        max-width: 190px;
+    }
+
+    .btn-secondary{
+        padding: 0.4rem 0.5rem;
+    }
+
+    .navbar .navbar-collapse .navbar-nav .nav-item .btn {
+        font-weight: 500;
+        font-size: 0.7rem;
+        background-color: #A7BB39;
+        border-color: #A7BB39;
+        color: white;
+        margin: 7px 0px 0px 5px;
+    }
+
+    .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+        color: white;
+        font-size: 0.8rem;
+    }
+}
 
 @media (max-width: 767px){
     .container-carousel{
@@ -550,7 +578,7 @@ footer svg.svg-inline--fa{
 /*-- Solutions Section --*/
 
     .solution img{
-        max-width: 230px;
+        max-width: 220px;
     }
 
     h3.heading{
@@ -565,6 +593,7 @@ footer svg.svg-inline--fa{
     .jumbotron{
        height: 75%;
        background: linear-gradient(180deg, white 50%, #073247 50%);
+       padding: 2rem 0rem;
     }
 
 
@@ -583,6 +612,10 @@ footer svg.svg-inline--fa{
     }
 
 /*-- Footer Section --*/
+    footer table th{
+        font-size: 0.8rem;
+    }
+
     footer img{
         width: 10rem;
     }
