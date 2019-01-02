@@ -287,8 +287,6 @@ footer svg.svg-inline--fa{
     color: #A7BB39 !important;
   }
 
-/*-- Media Queries --*/
-
 /*-- Quem Somos Section */
 
 .quemsomos .btn{
@@ -452,8 +450,60 @@ footer svg.svg-inline--fa{
     font-weight: 600;
 }
 
+/*-- Nossos Projetos Section --*/
+
+#outerCarousel{
+    background-image: url(img/bg.png)/
+}
+
+.container-carousel{
+    margin: 5rem 5rem;
+    margin-top: -3rem;
+}
+
+.carousel-item img{
+    max-width: 100%;
+    height: auto;
+}
+
+.carousel-item{
+    width: 100%;
+    object-fit: cover;
+}
+
+.carousel-inner{
+    padding: 80px;
+    box-shadow: 5px 10px 15px #888888;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#magicCarousel svg.svg-inline--fa{
+    color: #09212D;
+}
+
+
+/*-- Media Queries --*/
+
 @media (max-width: 767px){
-/*-- Navigation Section --*/
+    .container-carousel{
+        margin: 0rem 0rem;
+        margin-top: -2rem;
+        margin-bottom: 5rem;
+    }
+
+    .outer-carousel{
+        margin: 4.5rem 0rem;
+    }
+
+    .carousel-inner{
+        padding: 10px;
+        box-shadow: 5px 10px 15px #888888;
+        border-radius: 10px;
+        background-color: white;
+    }
+
+    /*-- Navigation Section --*/
 
     .navbar-brand img{
         width: 10rem;
@@ -481,7 +531,7 @@ footer svg.svg-inline--fa{
       }
       
       .caption h3{
-        font-size: 1.3rem;
+        font-size: 1rem;
         padding-bottom: 1rem;
       }
       
@@ -585,6 +635,12 @@ footer svg.svg-inline--fa{
         border-color: #A7BB39;
         margin: auto;
         margin-top: 1.5rem;
+    }
+
+    .quemsomos .equipe img{
+        border-radius: 50%;
+        width: 200px;
+        margin: 30px;
     }
 
     .quemsomos .text-center .heading{
