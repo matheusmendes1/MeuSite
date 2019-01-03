@@ -16,6 +16,7 @@
         <script src="js/main.js"></script>
     <!--- End of Script Source Files -->
 
+
   <script src="js/main.js"></script>
 </head>
 
@@ -56,54 +57,154 @@
 
 </div> <!-- End Home Section -->
 
-<div class="container container-carousel"> <!-- Start Container -->
-    <div id="outerCarousel"> <!-- Start Carousel Section -->
+<div class="carousel slide container" data-ride="carousel">
 
-        <div id="magicCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+    
+    <!-- The slideshow -->
+    <div class="carousel-item  active">
+        <div class="row">
 
-            <ol class="carousel-indicators">
-                <li data-target="#magicCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#magicCarousel" data-slide-to="1"></li>
-                <li data-target="#magicCarousel" data-slide-to="2"></li>
-                <li data-target="#magicCarousel" data-slide-to="3"></li>
-                <li data-target="#magicCarousel" data-slide-to="4"></li>
-            </ol>
-
-            <div class="carousel-inner" role="listbox"> <!--Start Inner Carousel -->
-                <div class="carousel-item active">
-                    <img class="d-block w-100 img-responsive" src="img/projetos/posto/posto.png" alt="First Slide">
-                </div>
-
-                <div class="carousel-item">
-                    <img class="d-block w-100 img-responsive" src="img/projetos/residencialCoro/residencial1.png" alt="Second Slide">
-                </div>
-
-                <div class="carousel-item">
-                    <img class="d-block w-100 img-responsive" src="img/projetos/residencialCoro/residencial2.png" alt="Third Slide">
-                </div>
-
-                <div class="carousel-item">
-                    <img class="d-block w-100 img-responsive" src="img/projetos/residencialCoro/residencial3.png" alt="Fourth Slide">
-                </div>
-
-                <div class="carousel-item">
-                    <img class="d-block w-100 img-responsive" src="img/projetos/residencialCoro/residencial4.png" alt="Fifth Slide">
-                </div>
-
-                <a class="carousel-control-prev" href="#magicCarousel" role="button" data-slide="prev">
-                    <i class="fas fa-chevron-left fa-2x"></i>
-                    <span class="sr-only">Previous</span>
-                </a>
-
-                <a class="carousel-control-next" href="#magicCarousel" role="button" data-slide="next">
-                    <i class="fas fa-chevron-right fa-2x"></i>
-                    <span class="sr-only">Previous</span>
-                </a>
-
-            </div> <!--End Inner Carousel -->
+            <div class="col-lg-6" id="residencialCoro">
+        <div class="front ">
+            <div class="card">
+            <div class="card-top">
+            <img class="card-img-top img-fluid" src="img/projetos/residencialCoro.png" alt="Edifício Residencial">
+            <a  href="javascript:void(0);" onclick="showProjeto('residencialCoro', 'back')" class="change"><i class="fas fa-sync fa-2x"></i></a>
         </div>
-    </div> <!-- End Carousel Section -->
-</div> <!-- End Container -->
+            <div class="card-body">
+                <h1 class="card-title">Edifício Residencial</h1>
+                <p class="card-text"> <i class="fa fa-map-marker"></i> Coração Eucarístico, Belo Horizonte - MG</p>
+            </div>
+            </div>
+    </div>
+
+    <div class="back">
+            <div class="card">
+                    <div class="card-top">
+                        <h3>Edifício Residencial</h3>
+                            <a href="javascript:void(0);" onclick="showProjeto('residencialCoro', 'front')" class="change"><i class="fas fa-sync fa-2x"></i></a>
+                        </div>
+                        <p class="system">
+                        Sistema Solar Térmico sendo projetado para ser implantado no Coração Eucarístico. <br/>
+                        Belo horizonte – MG   
+                        </p>
+                   
+                    <br/>   
+                    <p class="description">O sistema contará com 30 coletores solares de
+                            2m² cada, resultando em 60m² de área coletora
+                            com capacidade de 4.812 kWh/mês de potência,
+                            associados a reservatórios térmicos com
+                            capacidade de armazenamento de 3.000 +
+                            1.500 litros (total de 4.500 litros) sendo o primeiro
+                            destinado ao Sistema solar e o ultimo ao
+                            aquecimento auxiliar a gás. O sistema proporcionará
+                            economia de até 65% dos recursos utilizados
+                            para a geração de água quente, seja através
+                            de energia elétrica ou a gás.</p>
+
+                 <div class="btns">
+                     
+                     <a href="#" class="btn fotos" id="dynamic">Ver mais fotos</a>
+                  
+                   <a href="orcamento.html" class="btn orcamento">Quero um orçamento</a>   
+                 </div>           
+            </div>
+    </div>
+</div>
+    <div class="col-lg-6" id="postosaomatheus">
+        <div class="front " >
+      <div class="card">
+        <div class="card-top">
+        <img class="card-img-top img-fluid" src="img/projetos/posto/posto.png" alt="Auto Posto São Matheus">
+        <a  href="javascript:void(0);" onclick="showProjeto('postosaomatheus', 'back')" class="change"><i class="fas fa-sync fa-2x"></i></a>
+    </div>
+        <div class="card-body">
+          <h1 class="card-title">Edifício Residencial</h1>
+          <p class="card-text"> <i class="fa fa-map-marker"></i> Cruzinha, Minas Nova – MG</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="back ">
+            <div class="card">
+                    <div class="card-top">
+                        <h3>Auto Posto São Matheus</h3>
+                            <a href="javascript:void(0);" onclick="showProjeto('postosaomatheus', 'front')" class="change"><i class="fas fa-sync fa-2x"></i></a>
+                        </div>
+                        <p class="system">
+                                Usina Fotovoltaica implantada em Cruzinha.
+                                Minas Nova – MG 
+                        </p>
+                   
+                    <br/>   
+                    <p class="description">O sistema conta com 36 módulos fotovoltaicos
+                            e possui capacidade de 8,2kWp de potência,
+                            gerando energia elétrica proveniente da
+                            energia solar. O sistema proporciona economia
+                            de 95% na conta de energia elétrica da unidade
+                            além de gerar créditos que são compartilhados
+                            ocasionando a redução da conta de energia de
+                            outros três empreendimentos, sendo dois em
+                            Minas Nova e outro em Belo Horizonte.</p>
+
+                 <div class="btns">
+                     
+                     <a href="#" class="btn fotos" id="fotos">Ver mais fotos</a>
+                  
+                   <a href="orcamento.html" class="btn orcamento">Quero um orçamento</a>   
+                 </div>           
+            </div>
+    </div>
+</div>
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev carousel-icon" href="#demo" data-slide="prev">
+                <i class="fas fa-chevron-left fa-2x"></i>
+            </a>
+            <a class="carousel-control-next carousel-icon" href="#demo" data-slide="next">
+                <i class="fas fa-chevron-right fa-2x"></i>
+            </a>
+</div>
+    </div>
+    
+
+</div>
+
+<div id="demo" class="d-flex justify-content-center carousel slide" data-ride="carousel">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+    
+    <!-- The slideshow -->
+    <div class="carousel-inner d-flex align-items-center" style="border-radius: 15px;">
+      <div class="carousel-item active">
+        <img src="img/projetos/residencialCoro/residencial1.png" alt="Los Angeles" width="1100" height="500">
+      </div>
+      <div class="carousel-item">
+        <img src="img/projetos/residencialCoro/residencial2.png" alt="Chicago" width="1100" height="500">
+      </div>
+      <div class="carousel-item">
+        <img  src="img/projetos/residencialCoro/residencial3.png"" alt="New York" width="1100" height="500">
+      </div>
+    </div>
+    
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev carousel-icon" href="#demo" data-slide="prev">
+        <i class="fas fa-chevron-left fa-2x"></i>
+    </a>
+    <a class="carousel-control-next carousel-icon" href="#demo" data-slide="next">
+        <i class="fas fa-chevron-right fa-2x"></i>
+    </a>
+</div>
 
 <div id="footer" class="offset"> <!-- Start Footer Section -->
    <footer class="container">
@@ -147,6 +248,11 @@
       </div>
    </footer>
 </div> <!-- End Footer Section -->    
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+<script src="libs/lightgallery/js/lightgallery-all.min.js"></script>
 
 </body>
 </html>

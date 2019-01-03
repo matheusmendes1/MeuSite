@@ -469,36 +469,121 @@ footer svg.svg-inline--fa{
 }
 
 /*-- Nossos Projetos Section --*/
-
-#outerCarousel{
-    background-image: url(img/bg.png);
+.carousel-icon .svg-inline--fa{
+    color: black
 }
 
-.container-carousel{
-    margin: 5rem 5rem;
-    margin-top: -3rem;
-}
-
-.carousel-item img{
-    max-width: 100%;
-    height: auto;
-}
-
-.carousel-item{
+.carousel-inner img {
     width: 100%;
-    object-fit: cover;
+    height: 100%;
 }
 
-.carousel-inner{
-    padding: 80px;
-    box-shadow: 5px 10px 15px #888888;
-    border-radius: 10px;
-    background-color: white;
+#demo{
+   width:900px; /* or whatever width you want. */
+   max-width:900px; /* or whatever width you want. */
+   display: inline-block;
+   height: 600px;
+   max-height: 600px;
+   border: 2px solid red;
+   border-radius: 15px;
+   margin-top: 5rem;
+   margin-bottom: 5rem;
+   background-color: #F0F1F2;
 }
 
-#magicCarousel svg.svg-inline--fa{
-    color: #09212D;
+.carousel-indicators li{
+    background-color: #A7BB39;
 }
+.justify-content-center{
+    border-radius: 0;
+}
+
+
+#demo .card {
+	margin: 2vw;
+}
+
+.carousel-item {
+	padding: 5vw;
+}
+
+.carousel-control-prev{
+	justify-content: inherit;
+	background: none;
+	color: #073247 !important;
+	opacity: unset;
+	width: 0%;
+	
+}
+.carousel-control-next{
+	background: none;
+	color: #073247 !important;
+	opacity: unset;
+	width: 3%;
+}
+
+.card-top{
+	margin-bottom: 20px;
+}
+.card-top img{
+	width: 100%;
+	height: 50vh;
+}
+
+.card .change{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	background-color: #fff;
+	color: #042332;
+}
+
+.card {
+	height: 100%;
+    position: relative;
+}
+.card .btns{
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	left: 0;
+}
+
+.front .card-body{
+	text-align: center;
+	font-weight: bold;
+}
+
+.front .card-title {
+	font-size: 2.0em;
+	font-weight: bold;
+}
+
+.front .card-text {
+	font-size: 1.2em;
+}
+
+.back .card{
+	padding: 20px;
+}
+
+.back h3{
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.back p{
+	line-height: 1.3em;
+	font-size: 1.3em;
+}
+.card .system{
+	font-style: italic;	
+}
+
+.card .description{
+	text-align: justify;
+}
+
 
 
 /*-- Media Queries --*/
