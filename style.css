@@ -18,8 +18,12 @@ body{
 
 .navbar{
     font-weight: 500;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     background: rgba(0,0,0,0.6) !important;
+}
+
+#navbarResponsive{
+    margin-right: 2rem;
 }
 
 .navbar .navbar-collapse .navbar-nav .nav-item .nav-link{
@@ -33,7 +37,7 @@ body{
 
 .navbar .navbar-collapse .navbar-nav .nav-item .btn{
     font-weight: 500;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     background-color: #A7BB39;
     border-color: #A7BB39;
     color: white;
@@ -42,14 +46,14 @@ body{
 
 .navbar .navbar-collapse .navbar-nav .nav-item .btn:hover{
     font-weight: 500;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     background-color: #84932d;
     border-color: #84932d;
     color: white;
 }
 
 .navbar-brand img{
-    width: 13.75rem;
+    width: 8rem;
 }
 
 .navbar-image{
@@ -246,12 +250,12 @@ blockquote{
 }
 
 footer img{
-    width: 15rem;
+    width: 10rem;
 }
 
 footer p strong{
     color:white;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 table{
@@ -264,7 +268,7 @@ table{
 
 footer .footer-p{
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 600;
     letter-spacing: 1px;
 }
@@ -287,6 +291,10 @@ footer svg.svg-inline--fa{
     color: #A7BB39 !important;
   }
 
+  footer table th{
+    font-size: 0.9rem;
+}
+  
 /*-- Quem Somos Section */
 
 .quemsomos .btn{
@@ -407,7 +415,13 @@ footer svg.svg-inline--fa{
 
 ::placeholder{
     color: #0766AE;
-    font-weight: 600;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.row{
+    color: #747D84;
+    font-weight: 400;
     letter-spacing: 1px;
 }
 
@@ -421,6 +435,10 @@ footer svg.svg-inline--fa{
     font-size: 1.5rem;
     font-weight: 600;
     text-decoration: none;
+}
+
+.email .container a:hover{
+    color: #A7BB39;
 }
 
 .orcamento-hr{
@@ -486,17 +504,7 @@ footer svg.svg-inline--fa{
 /*-- Media Queries --*/
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-    footer table th{
-        font-size: 0.8rem;
-    }
-
-    .solution img{
-        max-width: 190px;
-    }
-
-    .btn-secondary{
-        padding: 0.4rem 0.5rem;
-    }
+    /*-- Navigation --*/
 
     .navbar .navbar-collapse .navbar-nav .nav-item .btn {
         font-weight: 500;
@@ -504,33 +512,44 @@ footer svg.svg-inline--fa{
         background-color: #A7BB39;
         border-color: #A7BB39;
         color: white;
-        margin: 7px 0px 0px 5px;
+        margin: 0px 0px 0px 5px;
+    }
+
+    #navbarResponsive{
+        margin-right: 0rem;
+    }
+
+    .navbar-image{
+        margin-left: 3rem;
     }
 
     .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
         color: white;
         font-size: 0.8rem;
     }
+
+    
+    /*-- Solutions Section --*/
+
+    .solution img{
+        max-width: 190px;
+    }
+
+    /*-- Landing Page Section --*/
+
+    .btn-secondary{
+        padding: 0.4rem 0.5rem;
+    }
+
+    /*-- Footer Section --*/
+
+    footer table th{
+        font-size: 0.8rem;
+    }
+
 }
 
 @media (max-width: 767px){
-    .container-carousel{
-        margin: 0rem 0rem;
-        margin-top: -2rem;
-        margin-bottom: 5rem;
-    }
-
-    .outer-carousel{
-        margin: 4.5rem 0rem;
-    }
-
-    .carousel-inner{
-        padding: 10px;
-        box-shadow: 5px 10px 15px #888888;
-        border-radius: 10px;
-        background-color: white;
-    }
-
     /*-- Navigation Section --*/
 
     .navbar-brand img{
@@ -548,6 +567,10 @@ footer svg.svg-inline--fa{
         border-color: #A7BB39;
         color: white;
         margin: 0px 0px 0px 0px;
+    }
+
+    #navbarResponsive{
+        margin-right: 0rem;
     }
 
 /*-- Landing Page Section --*/
