@@ -628,6 +628,9 @@ footer svg.svg-inline--fa{
     margin: 3.4rem 0rem 0rem 0rem;
   }
 
+  .carousel-icon .svg-inline--fa {
+    color: #042332;
+}
 
 /*-- Media Queries --*/
 
@@ -969,10 +972,10 @@ footer svg.svg-inline--fa{
      }
 
     .back h3{
-        font-size: 1.1rem;
+        font-size: 0.9rem;
     }
 
-    .back .fa-2x{  
-        font-size: 1rem;
+    .back fa-2x{
+        font-size: 1.5rem;
     }
 }
