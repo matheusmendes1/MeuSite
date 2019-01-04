@@ -18,7 +18,7 @@ body{
 
 .navbar{
     font-weight: 500;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     background: rgba(0,0,0,0.6) !important;
 }
 
@@ -37,7 +37,7 @@ body{
 
 .navbar .navbar-collapse .navbar-nav .nav-item .btn{
     font-weight: 500;
-    font-size: 0.8rem;
+    font-size: 1rem;
     background-color: #A7BB39;
     border-color: #A7BB39;
     color: white;
@@ -46,7 +46,7 @@ body{
 
 .navbar .navbar-collapse .navbar-nav .nav-item .btn:hover{
     font-weight: 500;
-    font-size: 0.8rem;
+    font-size: 1rem;
     background-color: #84932d;
     border-color: #84932d;
     color: white;
@@ -54,6 +54,8 @@ body{
 
 .navbar-brand img{
     width: 8rem;
+    margin: -2rem 0rem;
+    padding: 0.8rem 0rem;
 }
 
 .navbar-image{
