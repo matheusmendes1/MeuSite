@@ -675,6 +675,11 @@ footer svg.svg-inline--fa{
         font-size: 0.8rem;
     }
 
+    /*-- O que fazemos section --*/
+    #solutions .row{
+        margin-top: 1rem;
+    }
+
     /*-- Nossos Projetos Section --*/
     .back h3{
         font-size: 1.1rem;
@@ -881,6 +886,16 @@ footer svg.svg-inline--fa{
     .email .container .orcamento-hr{
         border-top: 0.1rem solid #073247;
         width: 30%;
+    }
+
+    /*-- O que fazemos Section --*/
+    #oquefazemos .row h2{
+        font-size: 1.4rem;
+        margin-top: 0.5rem;
+    }
+
+    #oquefazemos .row{
+        margin-top: 1rem;
     }
 
     /*-- Nossos Projetos Section --*/
