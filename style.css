@@ -470,7 +470,7 @@ footer svg.svg-inline--fa{
 
 /*-- Nossos Projetos Section --*/
 .carousel-icon .svg-inline--fa{
-    color: black
+    color: black;
 }
 
 .carousel-inner img {
@@ -478,15 +478,13 @@ footer svg.svg-inline--fa{
     height: 100%;
 }
 
-#demo{
-   width:900px; /* or whatever width you want. */
-   max-width:900px; /* or whatever width you want. */
+#carousel-1{
+   width:800px; /* or whatever width you want. */
+   max-width:800px; /* or whatever width you want. */
    display: inline-block;
    height: 600px;
    max-height: 600px;
-   border: 2px solid red;
    border-radius: 15px;
-   margin-top: 5rem;
    margin-bottom: 5rem;
    background-color: #F0F1F2;
 }
@@ -494,16 +492,20 @@ footer svg.svg-inline--fa{
 .carousel-indicators li{
     background-color: #A7BB39;
 }
+
 .justify-content-center{
     border-radius: 0;
 }
 
-#demo .card {
-	margin: 2vw;
+.card {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 5px;
 }
 
 .carousel-item {
-	padding: 5vw;
+	padding: 1rem 5rem 5rem 5rem;
 }
 
 .carousel-control-prev{
@@ -511,14 +513,17 @@ footer svg.svg-inline--fa{
 	background: none;
 	color: #073247 !important;
 	opacity: unset;
-	width: 0%;
-	
+    width: 3%;
+    margin-left: 3rem;
+    font-size: 1.5rem;
 }
 .carousel-control-next{
 	background: none;
 	color: #073247 !important;
 	opacity: unset;
-	width: 3%;
+    width: 3%;
+    margin-right: 3rem;
+    font-size: 1.5rem;
 }
 
 .card-top{
@@ -527,7 +532,7 @@ footer svg.svg-inline--fa{
 
 .card-top img{
 	width: 100%;
-	height: 50vh;
+	height: 45vh;
 }
 
 .card .change{
@@ -538,25 +543,21 @@ footer svg.svg-inline--fa{
 	color: #042332;
 }
 
-.card .btns{
-	position: relative;
-	bottom: 0;
-	width: 100%;
-	left: 0;
-}
-
 .front .card-body{
 	text-align: center;
-	font-weight: bold;
+    font-weight: bold;
+    padding: 1rem;
 }
 
 .front .card-title {
-	font-size: 2.0em;
-	font-weight: bold;
+	font-size: 1.9rem;
+    font-weight: 800;
+    letter-spacing: 0px;
+    color: #073247;
 }
 
 .front .card-text {
-	font-size: 1.2em;
+    color: #073247;
 }
 
 .back .card{
@@ -564,13 +565,17 @@ footer svg.svg-inline--fa{
 }
 
 .back h3{
-	font-weight: bold;
-	font-size: 1.2em;
+	font-weight: 600;
+    font-size: 1.3rem;
+    color: #073247;
+    letter-spacing: 0px;
 }
 
 .back p{
-	line-height: 1.3em;
-	font-size: 1.3em;
+	line-height: 1.2rem;
+    font-size: 1.3rem;
+    letter-spacing: 0px;
+    color: #073247;
 }
 
 .card .system{
@@ -581,6 +586,45 @@ footer svg.svg-inline--fa{
 	text-align: justify;
 }
 
+.btn-mais-fotos{
+    border-width: medium;
+    border-radius: 0.4rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 0.4rem 0.9rem;
+    color: white;
+    background-color: #073247;
+    border-color: #073247;
+  }
+  
+  .btn-mais-fotos:hover{
+    background-color: #031a26;
+    border-color: #031a26;
+    color: white;
+  }
+
+  .btn-orcamento{
+    border-width: medium;
+    border-radius: 0.4rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 0.4rem 0.9rem;
+    color: white;
+    background-color: #A7BB39;
+    border-color: #A7BB39;
+  }
+
+  .btn-orcamento:hover{
+    background-color: #84932d;
+    border-color: #84932d;
+    color: white;
+  }
+
+  .row .card-2{
+    margin: 3.4rem 0rem 0rem 0rem;
+  }
 
 
 /*-- Media Queries --*/
@@ -628,6 +672,36 @@ footer svg.svg-inline--fa{
     footer table th{
         font-size: 0.8rem;
     }
+
+    /*-- Nossos Projetos Section --*/
+    .back h3{
+        font-size: 1.1rem;
+    }
+
+    .front .card-title {
+        font-size: 1.5rem;
+    }
+
+    .carousel-control-prev, .carousel-control-next{
+        margin: 0rem 1.5rem;
+    }
+
+    .card-top img{
+        width: 100%;
+        height: 35vh;
+    }
+
+    #carousel-1{
+        width:600px; /* or whatever width you want. */
+        max-width:600px; /* or whatever width you want. */
+        display: inline-block;
+        height: 400px;
+        max-height: 400px;
+        border-radius: 15px;
+        margin-bottom: 5rem;
+        background-color: #F0F1F2;
+        margin-top: -3rem;
+     }
 
 }
 
@@ -806,4 +880,67 @@ footer svg.svg-inline--fa{
         border-top: 0.1rem solid #073247;
         width: 30%;
     }
+
+    /*-- Nossos Projetos Section --*/
+        
+    .carousel-item {
+        padding: 3rem 0rem;
+    }
+
+    .carousel-control-next, .carousel-control-prev{
+        display: table;
+        margin: 0rem 5rem;
+        font-size: 1.2rem;
+    }
+
+    .btn-mais-fotos{
+        border-width: medium;
+        border-radius: 0.4rem;
+        font-size: 0.8rem;
+        font-weight: 600;
+        letter-spacing: 1px;
+        padding: 0.4rem 0.9rem;
+        color: white;
+        background-color: #073247;
+        border-color: #073247;
+      }
+      
+      .btn-orcamento{
+        border-width: medium;
+        border-radius: 0.4rem;
+        font-size: 0.8rem;
+        font-weight: 600;
+        letter-spacing: 1px;
+        padding: 0.4rem 0.9rem;
+        color: white;
+        background-color: #A7BB39;
+        border-color: #A7BB39;
+      }
+
+      .card-top img{
+        width: 100%;
+        height: 40vh;
+    }
+
+    #carousel-1{
+        width:300px; /* or whatever width you want. */
+        max-width:300px; /* or whatever width you want. */
+        display: inline-block;
+        height: 400px;
+        max-height: 400px;
+        border-radius: 15px;
+        margin-bottom: 5rem;
+        background-color: #F0F1F2;
+        margin-top: -3rem;
+     }
+
+     #carousel-1 img{
+         max-width: 95%;
+         max-height: 30vh;
+     }
+
+     .carousel-control-prev, .carousel-control-next{
+        display: none !important;
+     }
+
 }

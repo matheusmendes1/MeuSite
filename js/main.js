@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  $("#myCarousel").on("slide.bs.carousel", function(e) {
+  $("#carousel-cards").on("slide.bs.carousel", function(e) {
     var $e = $(e.relatedTarget);
     var idx = $e.index();
     var itemsPerSlide = 1;
@@ -13,11 +13,11 @@ $(document).ready(function() {
         if (e.direction == "left") {
           $(".carousel-item")
             .eq(i)
-            .appendTo(".carousel-inner");
+            .appendTo(".carrousel-inner-cards");
         } else {
           $(".carousel-item")
             .eq(0)
-            .appendTo($(this).find(".carousel-inner"));
+            .appendTo($(this).find(".carrousel-inner-cards"));
         }
       }
     }
@@ -29,6 +29,7 @@ $(".equipe").hide();
 $(".carousel-item .back").hide();
 $(".descricao .led").hide();
 $(".descricao .fotovoltaico").hide();
+$(".carousel-1").hide();
 
 window.onscroll = () => {
     const nav = document.querySelector('#navbar');
@@ -52,10 +53,8 @@ window.onscroll = () => {
       $(".descricao .led").hide();
       $(".descricao .fotovoltaico").show();
     }
-    
   }
   
-
   function show(div) {
     if(div == "equipe"){
       $(".btnequipe").addClass("active");
@@ -71,7 +70,6 @@ window.onscroll = () => {
     }
 }
 
-
 function showProjeto(div, classe) {
   if(classe == "back"){
       $("#"+div+" .front").hide();
@@ -84,51 +82,6 @@ function showProjeto(div, classe) {
 
 }
 
-$('#dynamic').on('click', function() {
-
-  $(this).lightGallery({
-    share: false,
-    facebook: false,
-    download: false,
-      dynamic: true,
-      dynamicEl: [{
-          "src": 'images/projetos/residencialCoro/residencial1.png',
-          'thumb': 'images/projetos/residencialCoro/residencial1.png',
-      }, {
-          'src': 'images/projetos/residencialCoro/residencial2.png',
-          'thumb': 'images/projetos/residencialCoro/residencial2.png',
-          
-      }, {
-          'src': 'images/projetos/residencialCoro/residencial3.png',
-          'thumb': 'images/projetos/residencialCoro/residencial3.png',
-          
-      }
-      , {
-        'src': 'images/projetos/residencialCoro/residencial4.png',
-        'thumb': 'images/projetos/residencialCoro/residencial4.png',
-        
-    }]
-  })
-
-});
-
-$('#fotos').on('click', function() {
-
-  $(this).lightGallery({
-    share: false,
-    facebook: false,
-    download: false,
-      dynamic: true,
-      dynamicEl: [{
-          "src": 'images/projetos/posto/posto.png',
-          'thumb': 'images/projetos/posto/posto.png',
-      }, {
-          'src': 'images/projetos/residencialCoro/residencial2.png',
-          'thumb': 'images/projetos/residencialCoro/residencial2.png',
-          
-      
-        
-    }]
-  })
-
-});
+function showCarouselUm(){
+  $(".carousel-1").show();
+}
