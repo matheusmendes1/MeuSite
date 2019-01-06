@@ -3,7 +3,7 @@
 body{
     overflow-x: hidden;
     font-family: 'Source Sans Pro', sans-serif !important;
-    background-image: url(img/bg.png);
+    background-image: url(../img/bg.png);
     height: 100%;
 }
 
@@ -73,7 +73,7 @@ body{
 /*-- Landing Page --*/
 
 .home-inner{
-    background-image: url(img/headerHome.jpg);
+    background-image: url(../img/headerHome.jpg);
 }
 
 .layer{
@@ -471,7 +471,7 @@ footer svg.svg-inline--fa{
 
 #solutions{    
     height: 100%;
-    background-image: url('img/bg.png')
+    background-image: url('../img/bg.png')
 }
 
 #oquefazemos h2{
