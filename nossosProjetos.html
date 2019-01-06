@@ -10,21 +10,19 @@
   <link rel="stylesheet" href="css/fixed.css">
 
     <!--- Script Source Files -->
-        <script src="js/jquery-3.3.1.min.js"></script>
-        <script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
-        <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
-        <script src="js/main.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+    <script src="js/main.js"></script>
     <!--- End of Script Source Files -->
 
-
-  <script src="js/main.js"></script>
 </head>
 
 <body data-target="#navbarResponsive">
 
 <div id="home"> <!-- Start Home Section -->
    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top"> <!-- Start Navigation -->
-         <a class="navbar-brand navbar-image" href="#">
+         <a class="navbar-brand navbar-image" href="index.html">
           <img src="img/logo-topo.png">
          </a>            
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
@@ -43,7 +41,9 @@
   <div class="landing"> <!-- Start Landing Page Section -->
     <div class="home-wrap">
         <div class="home-inner">
+            <div class="layer">
 
+            </div>
         </div>
     </div>
 
@@ -67,8 +67,10 @@
                                 <div class="front">
                                     <div class="card">
                                         <div class="card-top">
-                                            <img class="card-img-top img-fluid" src="img/projetos/residencialCoro.png" alt="Edifício Residencial">
-                                            <a  href="javascript:void(0);" onclick="showProjeto('residencialCoro', 'back')" class="change"><i class="fas fa-sync fa-2x"></i></a>
+                                            <img class="card-img-top img-fluid" src="img/projetos/condominio/condominio5.JPG" alt="Edifício Residencial">
+                                            <a  href="javascript:void(0);" onclick="(showProjeto('residencialCoro', 'back'))" class="change">
+                                                <i class="fas fa-sync fa-2x"></i>
+                                            </a>
                                         </div>
 
                                         <div class="card-body">
@@ -82,7 +84,9 @@
                                     <div class="card">
                                         <div class="card-top">
                                             <h3>Edifício Residencial</h3>
-                                            <a href="javascript:void(0);" onclick="showProjeto('residencialCoro', 'front')" class="change"><i class="fas fa-sync fa-2x"></i></a>
+                                            <a href="javascript:void(0);" onclick="showProjeto('residencialCoro', 'front')" class="change">
+                                                <i class="fas fa-sync fa-2x"></i>
+                                            </a>
                                         </div>
 
                                         <p class="system">
@@ -104,9 +108,14 @@
                                             de energia elétrica ou a gás.
                                         </p>
 
-                                        <div class="row ">
-                                            <div class="col-12 col-sm-12 col-lg-12 d-flex justify-content-center"><button type="button" class="btn btn-outline-light btn-lg btn-mais-fotos" href="#" onclick="showCarouselUm()">Ver mais fotos</button></div>
-                                            <div class="col-sm-12 col-12 col-lg-12"><a href="orcamento.html" class="btn btn-outline-light btn-lg btn-orcamento">Quero um orçamento</a></div>
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-lg-12 d-flex justify-content-center">
+                                                <button type="button" class="btn btn-outline-light btn-lg btn-mais-fotos" data-toggle="modal" data-target="#modalResidencial">Ver mais fotos</button>
+                                            </div>
+
+                                            <div class="col-sm-12 col-12 col-lg-12">
+                                                <a href="orcamento.html" class="btn btn-outline-light btn-lg btn-orcamento">Quero um orçamento</a>
+                                            </div>
                                         </div>           
                                     </div>
                                 </div>
@@ -116,12 +125,14 @@
                             <div class="front">
                                 <div class="card">
                                     <div class="card-top">
-                                        <img class="card-img-top img-fluid" src="img/projetos/posto/posto.png" alt="Auto Posto São Matheus">
-                                        <a  href="javascript:void(0);" onclick="showProjeto('postosaomatheus', 'back')" class="change"><i class="fas fa-sync fa-2x"></i></a>
+                                        <img class="card-img-top img-fluid" src="img/projetos/auto-posto/posto6.jpg" alt="Auto Posto São Matheus">
+                                        <a  id="sync-1" href="javascript:void(0);" onclick="showProjeto('postosaomatheus', 'back')" class="change">
+                                            <i class="fas fa-sync fa-2x"></i>
+                                        </a>
                                     </div>
 
                                     <div class="card-body">
-                                        <h1 class="card-title">Edifício Residencial</h1>
+                                        <h1 class="card-title">Auto Posto São Matheus</h1>
                                         <p class="card-text"> <i class="fas fa-map-marker-alt"></i> Cruzinha, Minas Nova – MG</p>
                                     </div>
                                 </div>
@@ -131,7 +142,9 @@
                                 <div class="card">
                                     <div class="card-top">
                                         <h3>Auto Posto São Matheus</h3>
-                                        <a href="javascript:void(0);" onclick="showProjeto('postosaomatheus', 'front')" class="change"><i class="fas fa-sync fa-2x"></i></a>
+                                        <a href="javascript:void(0);" onclick="showProjeto('postosaomatheus', 'front')" class="change">
+                                            <i class="fas fa-sync fa-2x"></i>
+                                        </a>
                                     </div>
 
                                     <p class="system">
@@ -153,8 +166,13 @@
                                     </p>
 
                                     <div class="row card-2">
-                                        <div class="col-12 col-sm-12 col-lg-12  d-flex justify-content-center"><button type="button" class="btn btn-outline-light btn-lg btn-mais-fotos" href="#" onclick="showCarouselDois()">Ver mais fotos</button></div>
-                                        <div class="col-sm-12 col-12 col-lg-12"><a href="orcamento.html" class="btn btn-outline-light btn-lg btn-orcamento">Quero um orçamento</a></div>
+                                        <div class="col-12 col-sm-12 col-lg-12 d-flex justify-content-center">
+                                            <button type="button" class="btn btn-outline-light btn-lg btn-mais-fotos" data-toggle="modal" data-target="#modalPosto">Ver mais fotos</button>
+                                        </div>
+
+                                        <div class="col-sm-12 col-12 col-lg-12">
+                                            <a href="orcamento.html" class="btn btn-outline-light btn-lg btn-orcamento">Quero um orçamento</a>
+                                        </div>
                                     </div>              
                                 </div>
                             </div>
@@ -177,32 +195,180 @@
     </div> <!-- End col -->
 </div> <!-- End Container -->
 
-<div class="carousel-1">
-    <div class="d-flex carousel-1 justify-content-center carousel slide" data-ride="carousel" id="carousel-1"> <!-- Start Carousel Gallery -->
-
-        <!-- The slideshow -->
-        <div class="carousel-inner d-flex align-items-center" style="border-radius: 15px;">
-          <div class="carousel-item active">
-            <img class="img-fluid" src="img/projetos/residencialCoro/residencial1.png" alt="Los Angeles" width="1100" height="500">
-          </div>
-          <div class="carousel-item">
-            <img class="img-fluid"  src="img/projetos/residencialCoro/residencial2.png" alt="Chicago" width="1100" height="500">
-          </div>
-          <div class="carousel-item">
-            <img  class="img-fluid" src="img/projetos/residencialCoro/residencial3.png"" alt="New York" width="1100" height="500">
-          </div>
-        </div>
+<!-- Modal Edifício Residencial -->
+<div class="modal fade" id="modalResidencial" tabindex="-1" role="dialog" aria-labelledby="Edifício Residencial" aria-hidden="true"> <!-- Start Modal Edifício Residencial -->
+    <div class="modal-dialog" role="document"> <!-- Start Modal Dialog -->
+      <div class="modal-content"> <!-- Start Modal Content -->
         
-        <!-- Left and right controls -->
-        <a class="carousel-control-prev carousel-icon d-flex" href="#carousel-1" data-slide="prev">
-            <i class="fas fa-chevron-left fa-2x"></i>
-        </a>
-        <a class="carousel-control-next carousel-icon d-flex" href="#carousel-1" data-slide="next">
-            <i class="fas fa-chevron-right fa-2x"></i>
-        </a>
-    </div> <!-- End Carousel Gallery -->
-    
-</div>
+        <div class="modal-header">
+          <h3 class="modal-title">Edifício Residencial</h3>
+          <button type="button" class="close close-button" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+        <div class="modal-body"> <!-- Start Modal Body -->
+                <!-- main slider carousel -->
+                <div class="row">
+                    <div class="col-lg-12" id="slider">
+                            <div id="myCarousel-residencial" class="carousel slide">
+                                <!-- main slider carousel items -->
+                                <div class="carousel-inner">
+                                    <div class="active item carousel-item" data-slide-number="0">
+                                        <img src="img/projetos/condominio/condominio1.JPG" class="img-fluid">
+                                    </div>
+                                    <div class="item carousel-item" data-slide-number="1">
+                                        <img src="img/projetos/condominio/condominio2.JPG" class="img-fluid">
+                                    </div>
+                                    <div class="item carousel-item" data-slide-number="2">
+                                        <img src="img/projetos/condominio/condominio3.JPG" class="img-fluid">
+                                    </div>
+                                    <div class="item carousel-item" data-slide-number="3">
+                                        <img src="img/projetos/condominio/condominio4.JPG" class="img-fluid">
+                                    </div>
+                                    <div class="item carousel-item" data-slide-number="4">
+                                        <img src="img/projetos/condominio/condominio5.JPG" class="img-fluid">
+                                    </div>
+                                    <div class="item carousel-item" data-slide-number="5">
+                                        <img src="img/projetos/condominio/condominio6.JPG" class="img-fluid">
+                                    </div>
+                                    <div class="item carousel-item" data-slide-number="6">
+                                        <img src="img/projetos/condominio/condominio7.jpeg" class="img-fluid">
+                                    </div>
+                                </div>
+                                <!-- main slider carousel nav controls -->   
+                                <ul class="d-flex justify-content-center carousel-indicators list-inline">
+                                    <li class="list-inline-item active">
+                                        <a id="carousel-selector-0" class="selected" data-slide-to="0" data-target="#myCarousel-residencial">
+                                            <img src="img/projetos/condominio/condominio1.JPG" class="img-fluid">
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a id="carousel-selector-1" data-slide-to="1" data-target="#myCarousel-residencial">
+                                            <img src="img/projetos/condominio/condominio2.JPG" class="img-fluid">
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a id="carousel-selector-2" data-slide-to="2" data-target="#myCarousel-residencial">
+                                            <img src="img/projetos/condominio/condominio3.JPG" class="img-fluid">
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a id="carousel-selector-3" data-slide-to="3" data-target="#myCarousel-residencial">
+                                            <img src="img/projetos/condominio/condominio4.JPG" class="img-fluid">
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a id="carousel-selector-4" data-slide-to="4" data-target="#myCarousel-residencial">
+                                            <img src="img/projetos/condominio/condominio5.JPG" class="img-fluid">
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a id="carousel-selector-5" data-slide-to="5" data-target="#myCarousel-residencial">
+                                            <img src="img/projetos/condominio/condominio6.JPG" class="img-fluid">
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a id="carousel-selector-6" data-slide-to="6" data-target="#myCarousel-residencial">
+                                            <img src="img/projetos/condominio/condominio7.jpeg" class="img-fluid">
+                                        </a>
+                                    </li>
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+        </div> <!-- End Modal Body -->
+      </div> <!-- End Modal Content -->
+    </div> <!-- End Modal Dialog -->
+</div> <!-- End Modal Edifício Residencial-->
+
+
+<!-- Modal Posto São Mateus -->
+<div class="modal fade" id="modalPosto" tabindex="-1" role="dialog" aria-labelledby="Posto São Mateus" aria-hidden="true"> <!-- Start Modal Posto São Mateus -->
+    <div class="modal-dialog" role="document"> <!-- Start Modal Dialog -->
+      <div class="modal-content"> <!-- Start Modal Content -->
+        
+        <div class="modal-header">
+          <h3 class="modal-title">Posto São Mateus</h3>
+          <button type="button" class="close close-button" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+        <div class="modal-body"> <!-- Start Modal Body -->
+                <!-- main slider carousel -->
+                <div class="row">
+                    <div class="col-lg-12" id="slider">
+                            <div id="myCarousel-posto" class="carousel slide">
+                                <!-- main slider carousel items -->
+                                <div class="carousel-inner">
+                                    <div class="active item carousel-item" data-slide-number="0">
+                                        <img src="img/projetos/auto-posto/posto1.JPG" class="img-fluid">
+                                    </div>
+                                    <div class="item carousel-item" data-slide-number="1">
+                                        <img src="img/projetos/auto-posto/posto2.JPG" class="img-fluid">
+                                    </div>
+                                    <div class="item carousel-item" data-slide-number="2">
+                                        <img src="img/projetos/auto-posto/posto3.JPG" class="img-fluid">
+                                    </div>
+                                    <div class="item carousel-item" data-slide-number="3">
+                                        <img src="img/projetos/auto-posto/posto4.JPG" class="img-fluid">
+                                    </div>
+                                    <div class="item carousel-item" data-slide-number="4">
+                                        <img src="img/projetos/auto-posto/posto5.JPG" class="img-fluid">
+                                    </div>
+                                    <div class="item carousel-item" data-slide-number="5">
+                                        <img src="img/projetos/auto-posto/posto6.JPG" class="img-fluid">
+                                    </div>
+                                    <div class="item carousel-item" data-slide-number="6">
+                                        <img src="img/projetos/auto-posto/posto7.JPG" class="img-fluid">
+                                    </div>
+                                </div>
+                                <!-- main slider carousel nav controls -->   
+                                <ul class="d-flex justify-content-center carousel-indicators list-inline">
+                                    <li class="list-inline-item active">
+                                        <a id="carousel-selector-0" class="selected" data-slide-to="0" data-target="#myCarousel-posto">
+                                            <img src="img/projetos/auto-posto/posto1.JPG" class="img-fluid">
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a id="carousel-selector-1" data-slide-to="1" data-target="#myCarousel-posto">
+                                            <img src="img/projetos/auto-posto/posto2.JPG" class="img-fluid">
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a id="carousel-selector-2" data-slide-to="2" data-target="#myCarousel-posto">
+                                            <img src="img/projetos/auto-posto/posto3.JPG" class="img-fluid">
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a id="carousel-selector-3" data-slide-to="3" data-target="#myCarousel-posto">
+                                            <img src="img/projetos/auto-posto/posto4.JPG" class="img-fluid">
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a id="carousel-selector-4" data-slide-to="4" data-target="#myCarousel-posto">
+                                            <img src="img/projetos/auto-posto/posto5.JPG" class="img-fluid">
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a id="carousel-selector-5" data-slide-to="5" data-target="#myCarousel-posto">
+                                            <img src="img/projetos/auto-posto/posto6.JPG" class="img-fluid">
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a id="carousel-selector-6" data-slide-to="6" data-target="#myCarousel-posto">
+                                            <img src="img/projetos/auto-posto/posto7.jpg" class="img-fluid">
+                                        </a>
+                                    </li>
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+        </div> <!-- End Modal Body -->
+      </div> <!-- End Modal Content -->
+    </div> <!-- End Modal Dialog -->
+</div> <!-- End Modal Posto São Mateus -->
 
 <div id="footer" class="offset"> <!-- Start Footer Section -->
    <footer class="container">
@@ -241,7 +407,6 @@
                <p><a href="oquefazemos.html">O que fazemos</a></p>
                <p><a href="nossosProjetos.html">Nossos Projetos</a></p>
                <p><a href="quemSomos.html">Quem Somos</a></p>
-               <p><a href="#faleConosco">Fale Conosco</a></p>
          </div>
       </div>
    </footer>
