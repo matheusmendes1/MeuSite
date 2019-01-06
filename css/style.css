@@ -814,7 +814,7 @@ footer svg.svg-inline--fa{
         border-radius: 0.4rem;
         font-size: 0.7rem;
         font-weight: 600;
-        padding: 0.3rem 2.5rem;
+        padding: 0.3rem 2rem;
         margin: 1rem;
         color: white;
         background-color: #A7BB39;
@@ -824,7 +824,7 @@ footer svg.svg-inline--fa{
 /*-- Solutions Section --*/
 
     .solution img{
-        max-width: 220px;
+        max-width: 100%;
     }
 
     h3.heading{
@@ -1022,3 +1022,23 @@ footer svg.svg-inline--fa{
     }
 }
 
+@media only screen and (min-device-width: 480px) 
+                   and (max-device-width: 640px) 
+                   and (orientation: landscape) {
+    .solution h1{
+        font-size: 1.3rem;
+    }
+
+    .btn-secondary{
+        border-width: medium;
+        border-radius: 0.4rem;
+        font-size: 0.8rem;
+        font-weight: 600;
+        letter-spacing: 1px;
+        padding: 0.4rem 0.7rem;
+        margin: 0.5rem;
+        color: white;
+        background-color: #A7BB39;
+        border-color: #A7BB39;
+      }
+}
