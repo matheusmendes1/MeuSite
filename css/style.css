@@ -19,7 +19,7 @@ body{
 .navbar{
     font-weight: 500;
     font-size: 1.1rem;
-    background: rgba(0,0,0,0.6) !important;
+    background: rgba(7,50,71,0.9) !important;
 }
 
 .bg-dark{
@@ -265,7 +265,7 @@ blockquote{
 
 #footer{
     background-color: #042332;
-    margin-top: -3rem;
+    margin-top: -1.5rem;
 }
 
 footer img{
@@ -774,6 +774,10 @@ footer svg.svg-inline--fa{
         border-color: #A7BB39;
       }
 
+      .email .container .orcamento-hr{
+        border-top: 0.1rem solid #073247;
+        width: 30%;
+    }
 }
 
 @media (max-width: 767px){
