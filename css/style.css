@@ -265,7 +265,11 @@ blockquote{
 
 #footer{
     background-color: #042332;
-    margin-top: -1.5rem;
+    margin-top: -3rem;
+}
+
+#footer .container{
+    margin-top: 1.5rem;
 }
 
 footer img{
@@ -282,7 +286,7 @@ table{
 }
 
 #partners{
-    margin-top: -7rem;
+    margin-top: -4rem;
 }
 
 footer .footer-p{
@@ -895,7 +899,15 @@ footer svg.svg-inline--fa{
     footer .row .text-center svg.svg-inline--fa{
         font-size: 1.75rem;
     }
+
+    #footer{
+        background-color: #042332;
+        margin-top: -3rem;
+    }
   
+    #footer .container{
+        margin-top: 0rem;
+    }
 /*-- Quem Somos Section --*/
 
     .sobre .btn-secondary{
@@ -1027,6 +1039,11 @@ footer svg.svg-inline--fa{
         max-width: 25px;
         height: 25px;
         max-height: 25px;
+    }
+
+    #myCarousel-posto .carousel-item{
+        border: 5px solid red;
+        max-height: 400px;
     }
 }
 
