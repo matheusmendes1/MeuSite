@@ -204,7 +204,7 @@ body{
 }
 
 .solution img{
-    max-width: 230px;
+    max-width: 100%;
 }
 
 h3.heading{
@@ -313,6 +313,10 @@ footer svg.svg-inline--fa{
   footer table th{
     font-size: 0.9rem;
 }
+
+    .padding-footer{
+        padding: 0rem !important;
+    }
   
 /*-- Quem Somos Section */
 
@@ -885,7 +889,7 @@ footer svg.svg-inline--fa{
     }
 
     footer .row .text-center svg.svg-inline--fa{
-        font-size: 3rem;
+        font-size: 1.75rem;
     }
   
 /*-- Quem Somos Section --*/
