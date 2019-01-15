@@ -521,6 +521,19 @@ footer svg.svg-inline--fa{
     margin: 4rem 0rem 5rem 0rem;
 }
 
+.solar p, .fotovoltaico p, .led p{
+    text-align: justify;
+}
+
+.link-orcamento{
+    color: #A6BA39;
+}
+
+.link-orcamento:hover{
+    color: #84932D;
+}
+
+
 /*-- Nossos Projetos Section --*/
 
 .card .svg-inline--fa{
