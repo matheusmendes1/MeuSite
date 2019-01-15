@@ -699,6 +699,13 @@ footer svg.svg-inline--fa{
     max-height: 50px;
 }
 
+.modal-body .carousel-inner .carousel-item img{
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 50vh;
+    max-height: 50vh;
+}
+
 .modal-body .row .slide .carousel-indicators > li {
     width: initial;
     height: initial;
@@ -833,6 +840,13 @@ footer svg.svg-inline--fa{
       .email .container .orcamento-hr{
         border-top: 0.1rem solid #073247;
         width: 30%;
+    }
+
+    .modal-body .carousel-inner .carousel-item img{
+        min-width: 300px;
+        max-width: 300px;
+        min-height: 35vh;
+        max-height: 35vh;
     }
 }
 
@@ -1091,6 +1105,13 @@ footer svg.svg-inline--fa{
         max-width: 25px;
         height: 25px;
         max-height: 25px;
+    }
+
+    .modal-body .carousel-inner .carousel-item img{
+        min-width: 300px;
+        max-width: 300px;
+        min-height: 40vh;
+        max-height: 40vh;
     }
 
     #myCarousel-posto .carousel-item{
