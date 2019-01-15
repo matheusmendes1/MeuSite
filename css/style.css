@@ -14,11 +14,11 @@ body{
     margin-top: -1rem;
 }
 
-/*-- Navigation --*/
+/*-- Navigation  --*/
 
 .navbar{
     font-weight: 500;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     background: rgba(7,50,71,0.9) !important;
 }
 
@@ -36,7 +36,7 @@ body{
 
 .navbar .navbar-collapse .navbar-nav .nav-item .nav-link{
     color:white;
-    
+    margin: 0rem 0.5rem;
 }
 
 .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover{
@@ -45,7 +45,7 @@ body{
 
 .navbar .navbar-collapse .navbar-nav .nav-item .btn{
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 0.9rem;
     background-color: #A7BB39;
     border-color: #A7BB39;
     color: white;
@@ -54,7 +54,7 @@ body{
 
 .navbar .navbar-collapse .navbar-nav .nav-item .btn:hover{
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 0.9rem;
     background-color: #84932d;
     border-color: #84932d;
     color: white;
@@ -62,8 +62,8 @@ body{
 
 .navbar-brand img{
     width: 8rem;
-    margin: -2rem 0rem;
-    padding: 0.8rem 0rem;
+    margin: -2.6rem 0rem -2rem 0rem;
+    padding: 1rem 0rem;
 }
 
 .navbar-image{
@@ -172,26 +172,9 @@ body{
 } 
 
 .solution div:hover{
-    background-color: white;
-    border-color: white;
-    box-shadow: 5px 10px 5px #888888;
-}
-
-.btn-secondary-solutions{
-    border-width: medium;
-    border-radius: 0.4rem;
-    font-size: 1.2rem;
-    font-weight: 600;
-    letter-spacing: 1px;
-    padding: 0.4rem 1.1rem;
-    margin: 1rem;
-    color: black;
-    background-color: lightgray;
-    border-color: lightgray;
-}
-
-.btn-secondary-solutions:hover{
-    box-shadow: 5px 7px 5px #888888;
+    background-color: #91b545;
+    border-color: #91b545;
+    color: #fff;
 }
 
 .solution div:hover img {
@@ -199,22 +182,20 @@ body{
     top: 10px;
 }
 
-.solution div:hover{
-    background-color: white;
-    border: none;
-    color:  black;
-    box-shadow: 5px 10px 3px #888888;
+.solution div:hover .btn {
+    background-color: #fff;
+    border-color: #fff;
+    color:  #91b545;
 }
 
 .solution div {
     font-size: 13pt;
+    border: 2px solid #DCDCDC;
     border-radius: 10px;
     padding: 5px;
     text-align: center;
     background-color: #fff; 
     height: 100%;
-    padding-left: 1.1rem;
-    padding-right: 1.1rem;
 }
 
 .solution h1{
@@ -259,8 +240,6 @@ blockquote{
     font-size: 1.2rem;
     font-weight: 500;
     color:#073145;
-    padding: 0rem 1rem 0rem 1rem;
-    line-height: 1.4rem;
 }
 
 .partner div {
@@ -426,7 +405,6 @@ footer svg.svg-inline--fa{
     color: white;
 }
 
-
 /* Orçamento Section --*/
 #orcamento{
     padding-top: 4rem;
@@ -517,15 +495,7 @@ footer svg.svg-inline--fa{
     font-weight: 600;
 }
 
-.solar, .fotovoltaico, .led{
-    margin: 4rem 0rem 5rem 0rem;
-}
-
 /*-- Nossos Projetos Section --*/
-
-.card .svg-inline--fa{
-    font-size: 1.5rem;
-}
 
 .justify-content-center{
     border-radius: 0;
@@ -614,8 +584,8 @@ footer svg.svg-inline--fa{
 }
 
 .back p{
-	line-height: 1.5rem;
-    font-size: 1.1rem;
+	line-height: 1.2rem;
+    font-size: 1.2rem;
     letter-spacing: 0px;
     color: #073247;
 }
@@ -663,10 +633,6 @@ footer svg.svg-inline--fa{
 .row .card-2{
     margin: 3.4rem 0rem 0rem 0rem;
   }
-
-  .row .m-button{
-    margin-top: -1rem;
-}
 
 .carousel-icon .svg-inline--fa {
     color: #042332; 
@@ -757,11 +723,6 @@ footer svg.svg-inline--fa{
 
     .btn-secondary{
         padding: 0.4rem 0.5rem;
-    }
-
-    .btn-secondary-solutions{
-        padding: 0.4rem 0.5rem;
-        margin-left: 5px;
     }
 
     /*-- Footer Section --*/
@@ -857,7 +818,7 @@ footer svg.svg-inline--fa{
       
       .caption h3{
         font-size: 1rem;
-        padding: 0rem 1rem 1rem 1rem;
+        padding-bottom: 1rem;
       }
       
       .btn-secondary{
