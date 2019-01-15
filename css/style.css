@@ -18,7 +18,7 @@ body{
 
 .navbar{
     font-weight: 500;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     background: rgba(7,50,71,0.9) !important;
 }
 
@@ -36,7 +36,7 @@ body{
 
 .navbar .navbar-collapse .navbar-nav .nav-item .nav-link{
     color:white;
-    
+    margin: 0rem 0.5rem;
 }
 
 .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover{
@@ -45,7 +45,7 @@ body{
 
 .navbar .navbar-collapse .navbar-nav .nav-item .btn{
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 0.9rem;
     background-color: #A7BB39;
     border-color: #A7BB39;
     color: white;
@@ -54,7 +54,7 @@ body{
 
 .navbar .navbar-collapse .navbar-nav .nav-item .btn:hover{
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 0.9rem;
     background-color: #84932d;
     border-color: #84932d;
     color: white;
@@ -62,8 +62,8 @@ body{
 
 .navbar-brand img{
     width: 8rem;
-    margin: -2rem 0rem;
-    padding: 0.8rem 0rem;
+    margin: -2.6rem 0rem -2rem 0rem;
+    padding: 1rem 0rem;
 }
 
 .navbar-image{
